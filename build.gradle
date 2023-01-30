@@ -1,11 +1,11 @@
 
 buildscript {
     ext {
-        kotlin_version = '1.6.21'
+        kotlin_version = '1.7.20'
     }
     dependencies {
-        classpath "com.google.dagger:hilt-android-gradle-plugin:2.40.5"
-        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:2.5.0-beta01"
+        classpath "com.google.dagger:hilt-android-gradle-plugin:2.43.2"
+        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:2.6.0-alpha04"
     }
 }
 

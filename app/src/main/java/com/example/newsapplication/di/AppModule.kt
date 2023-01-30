@@ -14,7 +14,7 @@ import javax.inject.Singleton
 
 @Module
 @InstallIn(SingletonComponent::class)
-class AppModule {
+object AppModule {
 
     @Provides
     fun baseUrl() = BASE_URL
@@ -38,6 +38,5 @@ class AppModule {
             .client(okHttpClient())
             .build()
             .create(NewsService::class.java)
-
 
 }

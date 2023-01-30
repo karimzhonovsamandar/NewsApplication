@@ -65,10 +65,12 @@ dependencies {
 // Coroutines
     def coroutinesVersion = "1.5.2"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutinesVersion"
+    //noinspection GradleDependency
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutinesVersion"
 
 // Hilt
-    def hiltVersion = "2.41"
+    def hiltVersion = "2.43.2"
+    //noinspection GradleDependency
     implementation "com.google.dagger:hilt-android:$hiltVersion"
     kapt "com.google.dagger:hilt-compiler:$hiltVersion"
 
@@ -83,7 +85,7 @@ dependencies {
     implementation "com.squareup.okhttp3:logging-interceptor:$okhttpVersion"
 
 // Navigation Components
-    def navVersion = "2.4.2"
+    def navVersion = "2.5.2"
     implementation "androidx.navigation:navigation-fragment-ktx:$navVersion"
     implementation "androidx.navigation:navigation-ui-ktx:$navVersion"
 
