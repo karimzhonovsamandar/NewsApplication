@@ -11,6 +11,7 @@ android {
     namespace 'com.example.newsapplication'
     compileSdk 33
 
+
     defaultConfig {
         applicationId "com.example.newsapplication"
         minSdk 21
@@ -19,6 +20,9 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildFeatures {
+        viewBinding true
     }
 
     buildTypes {
