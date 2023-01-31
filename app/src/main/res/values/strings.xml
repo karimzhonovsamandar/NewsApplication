@@ -4,4 +4,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="my_news">My News</string>
     <string name="popular_news">Popular news</string>
+    <string name="description">Описание</string>
+    <string name="details_text">Twitter recently announced it accepted an offer from billionaire Elon Musk to be acquired at a price of $54.20 per share. Investors should note that there\'s no guarantee the deal will close. It could be a while for the deal to be finalized</string>
+    <string name="visit_site">Visit site</string>
 </resources>
